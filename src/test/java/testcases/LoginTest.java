@@ -9,7 +9,7 @@ import utils.CommonMethods;
 import utils.ConfigReader;
 
 public class LoginTest extends CommonMethods {
-    @Test
+    @Test(groups = "regression")
     public void adminLogin(){
         LoginPage login = new LoginPage();
         sendText(login.usernameBox, ConfigReader.getPropertyValue("username"));
