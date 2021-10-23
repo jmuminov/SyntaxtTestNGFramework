@@ -12,6 +12,8 @@ public class AddEmployeePage extends CommonMethods {
     public WebElement middleName;
     @FindBy(id = "lastName")
     public WebElement lastName;
+    @FindBy(id = "employeeId")
+    public WebElement employeeID;
     @FindBy(id = "photofile")
     public WebElement photograph;
     @FindBy(id = "chkLogin")
